@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+/* .. Header ..*/
+.container{
+    max-width: 1000px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-image{
+    width: 100px;
+    width: 120px;
+    border: 3px solid pink;
+    border-radius: 20%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+    font-family: serif;
+}
+.header-bio :hover{
+    color: brown;
+}
+
+/* .. Header ends ..*/
+
+
+h1,h2,h3{
+    color:coral ;
+}
+
+/* .. Header contac start ..*/
+
+.header-contac{
+    float: right;
+    padding: 30px;
+
+}
+
+.header-contac a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+.header-contac a:hover{
+    color: rgb(236, 11, 11);
+
+/* .. Header contac Ends ..*/
+
+
+
+}
+.clear{
+    clear: both;
+}
+
+hr{
+    border: 3px solid pink;
+    border-bottom: none;
+    margin:  20px auto;
+}
+#change h3{
+    color: crimson;
+}
+
+/* .. Personal section start ..*/
+
+.personal-section{
+
+}
+
+.content{
+margin-bottom: 20px;
+}
+
+.left{
+    width: 30%;
+    float: left;
+
+}
+
+.right{
+    width: 70%;
+    float: left;
+}
+
+.commonhr{
+    border: solid black 1px;
+    width: 100%;
+    border-bottom: none;
+    margin: 20px auto;
+}
+
+/* .. Personal section Ends ..*/
+
+
+/* .. Education start ..*/
+
+.education-right{
+    width: 50%;
+    float:right ;
+
+
+}
+.education-left{
+    width: 50%;
+    float:right ;
+
+}
+.right h3{
+    margin-bottom: 5px;
+}
+
+/* .. Education Ends ..*/
+
+
+/* .. Footer ..*/
+
+.fruto{
+    background-color: grey;
+    text-align: center;
+    padding: 10px;
+}
+
+.fruto a{
+    color: white;
+    margin: 20px;
+}
+.fruto p{
+    color: white;
+    margin-top: 20px;
+}
+
+.fruto a:hover{
+    color: crimson;
+}
